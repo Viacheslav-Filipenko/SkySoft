@@ -1,0 +1,38 @@
+:root {
+    --mainColor: #f1c40f;
+}
+
+.container,
+.block,
+.inner-block {
+    border: 1px solid #000000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 10px 0px;
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.block {
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+}
+
+.inner-block {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.highlighted{
+    background-color: var(--mainColor);
+}
